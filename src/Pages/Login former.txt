@@ -1,0 +1,26 @@
+import { useSelector, useDispatch } from 'react-redux'
+import { increment, decrement, checkLogin} from '../Redux/slices/counterslice'
+
+
+function Login() {
+  const [num, setNum] = useState(1)
+
+  const nog = useSelector((state) => state?.counterslice.numberofgoods)
+  const dispatch = useDispatch()
+
+  useEffect(() =>{
+    //alert(678)
+    // console.log("this is similar to componentdidmount")
+  }, [])
+
+  return (
+    <div>
+      <h1>{nog}</h1>
+      <button onClick={() => dispatch(increment())}>increment</button>
+      <button onClick={() => dispatch(decrement())}>decrement</button>
+      <button onClick={() => dispatch(checkLogin())}>Login</button>
+    </div>
+    // <div>{console.log("this works  similar to render")}</div>
+  )
+}
+// import { Form } from 'react-router-dom'

@@ -1,0 +1,53 @@
+.f-header{
+
+font-family: 'Graphik';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 130%;
+/* or 36px */
+
+text-align: center;
+
+/* Hot Graient */
+
+background: linear-gradient(97.1deg, #C41740 4.8%, #EA9C28 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+
+
+}
+
+.descript{
+
+/* Text lg/Normal */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+
+text-align: center;
+
+/* Gray/600 */
+
+color: #475467;
+}
+
+.box{
+    /* Rectangle 134 */
+
+
+box-sizing: border-box;
+
+/* White */
+
+background: #FFFFFF;
+/* Gray/300 */
+
+border: 1px solid black;
+border-radius: 8px;
+}
