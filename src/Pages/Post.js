@@ -16,8 +16,6 @@ function Post() {
     .then((res) => {
       if(res.data.message === "success"){
         alert("success")
-      }else if(res.data.message === "{
-        Object
       }
     })
     .catch((err) => console.log(err))
